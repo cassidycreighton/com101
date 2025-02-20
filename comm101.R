@@ -1,13 +1,14 @@
 library(marinecs100b)
-
-
+library(ggplot2)
+install.packages("remotes")
+remotes::install_github("MarineCS-100B/marinecs100b")
 # Distributions of continuous variables -----------------------------------
 
 # P1 What type of visualization is appropriate for a single continuous variable?
-
+#histogram
 # P2 What type of visualization is appropriate for a continuous variable across
 # categorical variables?
-
+#scatter plot
 # P3 Use ggplot to visualize the distribution of sea surface salinity. Save your
 # figure as “comm101p3.png”.
 
